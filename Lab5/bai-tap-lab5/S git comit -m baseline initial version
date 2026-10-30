@@ -1,0 +1,91 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..82a31d7[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,84 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="vi">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="utf-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width,initial-scale=1">[m
+[32m+[m[32m    <title>Lab 5 · Portfolio thực hành</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="css/style.css">[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header><a class="brand" href="#gioi-thieu">FIT / PORTFOLIO V5</a>[m
+[32m+[m[32m        <nav class="menu" aria-label="Điều hướng chính">[m
+[32m+[m[32m            <a href="#gioi-thieu">Giới thiệu</a><a href="#ky-nang">Kỹ năng</a>[m
+[32m+[m[32m            <a href="#du-an">Dự án</a><a href="#lo-trinh">Lộ trình</a><a href="#lien-he">Liên hệ</a>[m
+[32m+[m[32m        </nav>[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <section class="hero" id="gioi-thieu"><span>LAB 5 · HTML5 + CSS3</span>[m
+[32m+[m[32m            <h1>Xin chào, tôi là Tuyền</h1>[m
+[32m+[m[32m            <p>Sinh viên CNTT đang xây dựng Portfolio có thể dùng bằng chuột và bàn phím.</p>[m
+[32m+[m[32m            <a class="button" href="#lien-he">Liên hệ với tôi</a>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <section id="ky-nang">[m
+[32m+[m[32m            <h2>Kỹ năng</h2>[m
+[32m+[m[32m            <ul class="skills">[m
+[32m+[m[32m                <li>HTML5</li>[m
+[32m+[m[32m                <li>CSS3</li>[m
+[32m+[m[32m                <li>Responsive</li>[m
+[32m+[m[32m            </ul>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <section id="du-an">[m
+[32m+[m[32m            <h2>Dự án</h2>[m
+[32m+[m[32m            <div class="project-grid">[m
+[32m+[m[32m                <article class="card"><span class="tag">HTML5</span>[m
+[32m+[m[32m                    <h3>Trang giới thiệu cá nhân</h3>[m
+[32m+[m[32m                    <p>Tổ chức nội dung với header, nav, main và footer.</p><a href="#lo-trinh">Xem lộ trình HTML5</a>[m
+[32m+[m[32m                </article>[m
+[32m+[m[32m                <article class="card"><span class="tag">Responsive</span>[m
+[32m+[m[32m                    <h3>Bố cục nhiều thiết bị</h3>[m
+[32m+[m[32m                    <p>Chia cột bằng Grid, dùng rem và media query.</p><a href="#lo-trinh">Xem lộ trình CSS</a>[m
+[32m+[m[32m                </article>[m
+[32m+[m[32m                <article class="card"><span class="tag">Trải nghiệm</span>[m
+[32m+[m[32m                    <h3>Form liên hệ dễ dùng</h3>[m
+[32m+[m[32m                    <p>Nhãn rõ ràng, kiểm tra dữ liệu và chỉ báo focus.</p><a href="#lien-he">Thử form liên hệ</a>[m
+[32m+[m[32m                </article>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <section id="lo-trinh">[m
+[32m+[m[32m            <h2>Lộ trình học tập</h2>[m
+[32m+[m[32m            <ol>[m
+[32m+[m[32m                <li>Lab 2: nội dung HTML5.</li>[m
+[32m+[m[32m                <li>Lab 3: CSS, Flexbox và Grid.</li>[m
+[32m+[m[32m                <li>Lab 4: rem và media query.</li>[m
+[32m+[m[32m                <li>Lab 5: tương tác và form.</li>[m
+[32m+[m[32m            </ol>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m        <section id="lien-he">[m
+[32m+[m[32m            <h2>Liên hệ</h2>[m
+[32m+[m[32m            <p>Form mô phỏng, chưa gửi email hoặc lưu vào cơ sở dữ liệu. Chỉ nhập dữ liệu giả.</p>[m
+[32m+[m[32m            <form action="ket-qua.html" method="get">[m
+[32m+[m[32m                <div class="form-field">[m
+[32m+[m[32m                    <label for="fullname">Họ tên (bắt buộc)</label><!-- 4.1 -->[m
+[32m+[m[32m                    <input id="fullname" name="fullname" type="text" autocomplete="name" required[m
+[32m+[m[32m                        minlength="2"><!-- 4.4 -->[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="form-field"><label for="email">Email (bắt buộc)</label>[m
+[32m+[m[32m                    <input id="email" name="email" type="email" required autocomplete="email"[m
+[32m+[m[32m                        aria-describedby="email-help"><!-- 4.2; 4.3 -->[m
+[32m+[m[32m                    <p class="help" id="email-help">Ví dụ: an@example.com</p>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <div class="form-field"><label for="message">Nội dung (bắt buộc)</label>[m
+[32m+[m[32m                    <textarea id="message" name="message" rows="4" required minlength="10" maxlength="500"[m
+[32m+[m[32m                        aria-describedby="message-help"></textarea><!-- 4.5; 4.6; 4.7 -->[m
+[32m+[m[32m                    <p class="help" id="message-help">Nhập từ 10 đến 500 ký tự.</p>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <button class="button" type="submit">Kiểm tra biểu mẫu</button><!-- 4.8 -->[m
+[32m+[m[32m            </form>[m
+[32m+[m[32m        </section>[m
+[32m+[m[32m    </main>[m
+[32m+[m[32m    <footer>FIT – DNU · Bài mẫu Lab 5 · HTML/CSS thuần</footer>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
