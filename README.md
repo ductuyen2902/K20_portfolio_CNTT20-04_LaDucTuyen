@@ -1,2 +1,2 @@
-# K20_portfolio_CNTT20-04_LaDucTuyen
-lam bai tap thiet ke wed
+# LaDucTuyen-baitapA2.2
+bai tap thiet ke wed va trien khai phan mem
