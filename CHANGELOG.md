@@ -1,6 +1,6 @@
 # CHANGELOG
 ## V8
-thêm mục docs/ minh chung
+<p>thêm mục docs/ minh chung<p/>
 chỉnh sửa mục AI_LOG
 ## V7
 asset
