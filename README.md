@@ -25,17 +25,3 @@ asset/	Ảnh dùng trong trang (gồm ảnh đại diện)
 docs/	Bảng minh chứng kiểm tra (minh-chung.md)
 CHANGELOG.md	Các thay đổi theo từng phiên bản
 AI_LOG.md	Nhật ký dùng AI
-Đã sửa theo góp ý
-
-Trong buổi kiểm tra chéo, bạn kiểm tra đã đọc README này và góp ý. Dưới đây là góp ý nhận được và việc đã sửa.
-
-Góp ý nhận được	Đã sửa thế nào
-(điền nguyên văn góp ý 1 của bạn)	(điền việc bạn đã sửa, hoặc ghi "chưa sửa, xem mục Hạn chế")
-(góp ý 2, nếu có)	(việc đã sửa)
-Lỗi đã sửa trong V8
-Đường dẫn tới tệp CSS bị sai nên trang không hiển thị định dạng và ảnh đại diện. Đã sửa đường dẫn trong index.html để trỏ đúng tới thư mục css/ và asset/.
-Hạn chế
-(ghi những gì chưa kiểm tra hoặc chưa sửa được, ví dụ: chưa thử trên điện thoại thật)
-Kết quả kiểm tra
-
-Xem bảng minh chứng trong docs/minh-chung.md
