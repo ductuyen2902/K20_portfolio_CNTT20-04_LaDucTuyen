@@ -15,7 +15,7 @@ Mở trình duyệt (Chrome hoặc Edge).
 Dán địa chỉ ở mục Demo vào thanh địa chỉ rồi nhấn Enter.
 Chờ trang tải xong. Trang hiển thị ảnh đại diện, nội dung giới thiệu và giao diện đã định dạng.
 Muốn mở trang kết quả kiểm tra, thêm ket-qua.html vào cuối địa chỉ Demo.
-Nếu muốn mở bản trên máy: tải repository về (nút Code → Download ZIP), giải nén, rồi bấm đúp vào index.html. Giữ nguyên các thư mục css và asset cạnh index.html, nếu không trang sẽ mất giao diện và ảnh.
+Nếu muốn mở bản trên máy: tải repository về (nút Code -> Download ZIP), giải nén, rồi bấm đúp vào index.html. Giữ nguyên các thư mục css và asset cạnh index.html, nếu không trang sẽ mất giao diện và ảnh
 Cấu trúc repository
 Tên	Nội dung
 index.html	Trang chính
