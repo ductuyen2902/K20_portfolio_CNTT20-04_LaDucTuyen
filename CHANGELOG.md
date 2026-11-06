@@ -2,7 +2,7 @@
 <h1>V8</h1> 
 <p>thêm mục docs/ minh chung<p/>
 <p>chỉnh sửa mục AI_LOG<p/>
-## V7
+<h1>V7</h1>
 <p>asset<p/>
 <p>CSS</p>
 <p>README.md</p>
