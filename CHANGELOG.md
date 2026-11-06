@@ -1,11 +1,11 @@
 # CHANGELOG
 ## V8
 <p>thêm mục docs/ minh chung<p/>
-chỉnh sửa mục AI_LOG
+<p>chỉnh sửa mục AI_LOG<p/>
 ## V7
-asset
-css
-AI_LOG trước đó
-README.md
-index.html
-ket-qua.html
+<p>asset<p/>
+<p>CSS</p>
+<p>README.md</p>
+<p>AI_LOG.md lúc trước</p>
+<p>index.html</p>
+<p>ket-qua.html</p>
