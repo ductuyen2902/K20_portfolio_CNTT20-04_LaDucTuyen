@@ -1,12 +1,41 @@
-# LaDucTuyen-baitapA2.2 ( V8 )
-bai tap thiet ke wed va trien khai phan mem
-sai đường dẫn css
-không hiện avatar
+Portfolio V8 – Lã Đức Tuyền
 
-## Kết quả kiểm tra ngày 2026-10-30
+Bài tập môn FIT4014 – Thiết kế web và triển khai hệ thống phần mềm. Trang web giới thiệu bản thân, đã triển khai trên GitHub Pages.
 
-- Giữ nguyên hai dự đoán ban đầu ở trên.
-- Trang tại URL gốc của repository đang hiển thị README, không phải portfolio. Repository có portfolio trong `Lab5/bai-tap-lab5/`; cần kiểm tra cấu hình GitHub Pages để xác nhận thư mục xuất bản.
-- Portfolio tại `/Lab5/bai-tap-lab5/` tải `css/style.css` thành công (HTTP 200) trong lần kiểm tra. Vì vậy, dự đoán sai đường dẫn CSS chưa được xác nhận cho URL này; không nên kết luận CSS hiện đang lỗi 404.
-- Trang public nói trên không có phần tử ảnh trong HTML được phục vụ. Bản local `Lab5/bai-tap-lab5/index.html` dùng `src="./"` cho avatar, đây không phải đường dẫn tới tệp ảnh cụ thể và cần đối chiếu với ảnh thực tế.
-- Chưa sửa mã nguồn, cấu hình GitHub Pages hoặc triển khai thay đổi; các ghi nhận trên là kết quả chẩn đoán, không phải xác nhận lỗi đã được khắc phục
+Họ tên: Lã Đức Tuyền
+MSSV: 2071020197
+Lớp: CNTT20-04
+Phiên bản: V8
+Demo
+
+https://ductuyen2902.github.io/K20_portfolio_CNTT20-04_LaDucTuyen/
+
+Cách mở
+Mở trình duyệt (Chrome hoặc Edge).
+Dán địa chỉ ở mục Demo vào thanh địa chỉ rồi nhấn Enter.
+Chờ trang tải xong. Trang hiển thị ảnh đại diện, nội dung giới thiệu và giao diện đã định dạng.
+Muốn mở trang kết quả kiểm tra, thêm ket-qua.html vào cuối địa chỉ Demo.
+Nếu muốn mở bản trên máy: tải repository về (nút Code → Download ZIP), giải nén, rồi bấm đúp vào index.html. Giữ nguyên các thư mục css và asset cạnh index.html, nếu không trang sẽ mất giao diện và ảnh.
+Cấu trúc repository
+Tên	Nội dung
+index.html	Trang chính
+ket-qua.html	Trang kết quả kiểm tra
+css/	Tệp định dạng giao diện
+asset/	Ảnh dùng trong trang (gồm ảnh đại diện)
+docs/	Bảng minh chứng kiểm tra (minh-chung.md)
+CHANGELOG.md	Các thay đổi theo từng phiên bản
+AI_LOG.md	Nhật ký dùng AI
+Đã sửa theo góp ý
+
+Trong buổi kiểm tra chéo, bạn kiểm tra đã đọc README này và góp ý. Dưới đây là góp ý nhận được và việc đã sửa.
+
+Góp ý nhận được	Đã sửa thế nào
+(điền nguyên văn góp ý 1 của bạn)	(điền việc bạn đã sửa, hoặc ghi "chưa sửa, xem mục Hạn chế")
+(góp ý 2, nếu có)	(việc đã sửa)
+Lỗi đã sửa trong V8
+Đường dẫn tới tệp CSS bị sai nên trang không hiển thị định dạng và ảnh đại diện. Đã sửa đường dẫn trong index.html để trỏ đúng tới thư mục css/ và asset/.
+Hạn chế
+(ghi những gì chưa kiểm tra hoặc chưa sửa được, ví dụ: chưa thử trên điện thoại thật)
+Kết quả kiểm tra
+
+Xem bảng minh chứng trong docs/minh-chung.md
