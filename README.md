@@ -1,4 +1,4 @@
-# LaDucTuyen-baitapA2.2
+# LaDucTuyen-baitapA2.2 ( V8 )
 bai tap thiet ke wed va trien khai phan mem
 sai đường dẫn css
 không hiện avatar
