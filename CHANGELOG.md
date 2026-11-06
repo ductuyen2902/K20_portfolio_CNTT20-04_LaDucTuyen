@@ -1,5 +1,5 @@
-<h1># CHANGELOG<h1/>
-## V8
+# CHANGELOG
+<h1>V8</h1> 
 <p>thêm mục docs/ minh chung<p/>
 <p>chỉnh sửa mục AI_LOG<p/>
 ## V7
