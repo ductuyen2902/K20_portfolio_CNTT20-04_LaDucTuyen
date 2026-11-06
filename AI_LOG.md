@@ -1,2 +1,1 @@
-sai đường dẫn CSS
-không hiển thị avatar
+em dùng AI để hướng dẫn em làm bài tập này, từ việc tìm mã commit ở đâu và cách add thêm cái mục V8
